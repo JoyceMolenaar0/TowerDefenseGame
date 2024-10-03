@@ -2,33 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Dynamic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class BulletMovement : MonoBehaviour
 {
-    private float BulletSpeed = 4f;
-    private float ElapsedTime = 0;
     [SerializeField] Transform Enemy;
-    [SerializeField] GameObject WalkPoint1;
+    [SerializeField] GameObject[] WalkPoints = new GameObject[10];
+
+    private float BulletSpeed = 2f;
     void Start()
     {
         
     }
-
-
     void Update()
     {
-
-        transform.position = Vector3.MoveTowards(transform.position, Enemy.transform.position, BulletSpeed * Time.deltaTime);
-
-        
-    }
-
-    private void OnTriggerEnter(Collider Enemy)
-    {
-        if (Enemy.gameObject.tag == "Enemy")
+        if ((Vector3.Distance(Enemy.transform.position, WalkPoints[1].transform.position) < 0.2f))
         {
-            Destroy(gameObject);
-            return;
+            transform.position = Vector3.MoveTowards(transform.position, WalkPoints[1].transform.position, BulletSpeed * Time.deltaTime);
         }
+
     }
 }

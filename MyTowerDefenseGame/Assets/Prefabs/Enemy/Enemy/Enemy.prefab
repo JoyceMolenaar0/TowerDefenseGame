@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3721684515648624252}
   - component: {fileID: 4388539162126025239}
   - component: {fileID: 5939756151483961784}
+  - component: {fileID: 8774540899575983415}
   - component: {fileID: 6452427152694122315}
   - component: {fileID: 1370317423752435028}
   m_Layer: 0
@@ -79,10 +80,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CameraTransform: {fileID: 538700474335328882, guid: 2e91a75445321dc47bc6898fa78ef2b2,
     type: 3}
-  HealthSlider: {fileID: 6153503776673670539, guid: bfefc5e82604f774f9cecad24214e60a,
-    type: 3}
+  HealthSlider: {fileID: 8127296483449883147}
   MaxHealth: 100
   Health: 0
+--- !u!114 &8774540899575983415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2741403526144821209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d40f9e7c085d649b0844a5c05e776e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthSlider: {fileID: 8127296483449883147}
 --- !u!136 &6452427152694122315
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -235,6 +248,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3721684515648624252}
     m_Modifications:
+    - target: {fileID: 1005305798436269978, guid: 9c892eebc486e0f43a8fbae82bfd822b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7604593
+      objectReference: {fileID: 0}
     - target: {fileID: 1462521263917758809, guid: 9c892eebc486e0f43a8fbae82bfd822b,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -388,3 +406,15 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 8712033084915660394}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8127296483449883147 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 589600989352754273, guid: 9c892eebc486e0f43a8fbae82bfd822b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8712033084915660394}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4426255616333390941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

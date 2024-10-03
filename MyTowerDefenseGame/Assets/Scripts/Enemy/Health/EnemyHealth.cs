@@ -25,7 +25,7 @@ public class EnemyHealth : MonoBehaviour
     {
        if (HealthSlider.value != Health)
         {
-            HealthSlider.value = Health;
+           UpdateSlider();
         }
 
        HealthSlider.transform.LookAt(CameraTransform);
@@ -36,12 +36,17 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         Health -= damage;
-        
+        UpdateSlider();
     }
 
     void GiveHealth(float Healing)
     {
         Health += Healing;
+    }
+
+    void UpdateSlider()
+    {
+        HealthSlider.value = Health;
     }
 
 }

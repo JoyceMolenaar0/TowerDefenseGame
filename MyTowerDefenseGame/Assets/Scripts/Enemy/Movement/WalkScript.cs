@@ -19,12 +19,6 @@ public class WalkScript : MonoBehaviour
 
     private void Update()
     {
-        if (Vector3.Distance(transform.position, EnemyEnd.transform.position) < 0.01f)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
         if (points.Length == 0) return;
         transform.position = Vector3.MoveTowards(transform.position, points[WalkPoints].position, WalkSpeed * Time.deltaTime);
         transform.LookAt(points[WalkPoints].position);
@@ -39,8 +33,11 @@ public class WalkScript : MonoBehaviour
             }
         }
 
-
-        
+        if (Vector3.Distance(transform.position, EnemyEnd.transform.position) < 0.01f)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
     }
 }

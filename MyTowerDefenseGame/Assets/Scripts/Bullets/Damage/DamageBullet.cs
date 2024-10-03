@@ -4,20 +4,29 @@ using UnityEngine;
 
 public class DamageBullet : MonoBehaviour
 {
-    EnemyHealth EnemyHealthScript;
-
-    [SerializeField] Transform Enemy;
+ 
     void Start()
     {
-        EnemyHealthScript = FindObjectOfType<EnemyHealth>();
-        EnemyHealthScript.TakeDamage(50);
+        
     }
 
     
     void Update()
     {
-        
 
+    }
+
+    private void OnTriggerEnter(Collider Enemy)
+    {
+        if (Enemy.gameObject.tag == "Enemy")
+        { 
+            EnemyHealth EnemyHealthScript = Enemy.GetComponent<EnemyHealth>();
+
+            if (EnemyHealthScript != null)
+            {
+                EnemyHealthScript.TakeDamage(10);
+            }
+        }
     }
 
 

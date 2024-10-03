@@ -17,12 +17,11 @@ public class BulletPoints : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider CollBullet)
+    private void OnTriggerEnter(Collider Enemy)
     {
-        if (CollBullet.gameObject.tag == "Enemy")
+        if (Enemy.gameObject.tag == "Enemy")
         {
-            Debug.Log("lalakoes");
-            CoinsUpdaterScript.AddScore(25);
+            CoinsUpdaterScript.AddScore(1);
             CoinsUpdaterScript.UpdateScore();   
         }
     }

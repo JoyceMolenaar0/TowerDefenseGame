@@ -14,19 +14,24 @@ public class CoinsUpdater : MonoBehaviour
     private int ScoreCount = 0;
     void Start()
     {
-        
+
     }
 
     
     void Update()
     {
-        UpdateScore();
-      
+        UpdateScore();  
     }
 
     public void AddScore(int Score)
     {
         ScoreCount += Score;
+        UpdateScore();
+    }
+
+    void RemoveScore(int Score)
+    {
+        ScoreCount -= Score;
         UpdateScore();
     }
 

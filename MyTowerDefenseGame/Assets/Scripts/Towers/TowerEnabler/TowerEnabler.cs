@@ -10,8 +10,8 @@ public class TowerEnabler : MonoBehaviour
     [SerializeField] GameObject Tower1;
     [SerializeField] GameObject Tower2;
     [SerializeField] GameObject Tower3;
-
-    private int TowerCost = 100;
+    
+    private int Tower1Cost = 100;
     
     void Start()
     {
@@ -26,9 +26,10 @@ public class TowerEnabler : MonoBehaviour
 
     public void Tower1Enabler()
     {
-        if (ScoreText.text == "Coins:" + TowerCost)
+        if (ScoreText.text == "Coins:" + Tower1Cost)
         {
             Tower1.SetActive(true);
+
         }
 
     }
