@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 2776555346304294234}
   - component: {fileID: 4841596724075969433}
   - component: {fileID: 1038264210515049585}
-  - component: {fileID: 8677817884080652561}
+  - component: {fileID: 4088210592332279068}
+  - component: {fileID: 474687996002965901}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -110,7 +111,7 @@ MonoBehaviour:
   - {fileID: 3396319807714637031, guid: 0f4dbfce40a68d947b18d0752ce695ec, type: 3}
   - {fileID: 5770377263651242633, guid: 4504952309a89b7488b3568dae2ddb74, type: 3}
   WalkSpeed: 0.5
---- !u!114 &8677817884080652561
+--- !u!114 &4088210592332279068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,13 +120,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1127339973138015782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddba17bd0b1d2fb499ce348e43b934a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d51998ee266bf44c8fa31680ef5108a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HealthSlider: {fileID: 1262157851365712308}
-  HPText: {fileID: 8867493996677238899}
+--- !u!114 &474687996002965901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127339973138015782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f799e6a49889d8b41a5657cf82589985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthSlider: {fileID: 1877778627811651280, guid: 3d167f1561963af43aa8c7fa62fde5c9,
+    type: 3}
+  HealthScore: {fileID: 3005417625127041304, guid: 15ac842703329fa49ba2a32cc0ecbaa8,
+    type: 3}
+  Health: 90
   MaxHealth: 100
-  Health: 0
+  MinHealth: 0
 --- !u!1 &5500704881064265146
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,8 +255,13 @@ PrefabInstance:
     - target: {fileID: 1877778627811651280, guid: 3d167f1561963af43aa8c7fa62fde5c9,
         type: 3}
       propertyPath: m_Value
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3836158953152742083, guid: 3d167f1561963af43aa8c7fa62fde5c9,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2800000, guid: 0d9a36012a224080966c7b55896aa0f9, type: 3}
     - target: {fileID: 4342618907626347868, guid: 3d167f1561963af43aa8c7fa62fde5c9,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -255,6 +276,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HealthBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 8107757617688616727, guid: 3d167f1561963af43aa8c7fa62fde5c9,
+        type: 3}
+      propertyPath: m_text
+      value: 'HP: -430'
       objectReference: {fileID: 0}
     - target: {fileID: 9170429896713397825, guid: 3d167f1561963af43aa8c7fa62fde5c9,
         type: 3}
@@ -361,36 +387,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d167f1561963af43aa8c7fa62fde5c9, type: 3}
---- !u!114 &1262157851365712308 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1877778627811651280, guid: 3d167f1561963af43aa8c7fa62fde5c9,
-    type: 3}
-  m_PrefabInstance: {fileID: 831794111539777380}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &8415197116295440677 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9170429896713397825, guid: 3d167f1561963af43aa8c7fa62fde5c9,
     type: 3}
   m_PrefabInstance: {fileID: 831794111539777380}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8867493996677238899 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8107757617688616727, guid: 3d167f1561963af43aa8c7fa62fde5c9,
-    type: 3}
-  m_PrefabInstance: {fileID: 831794111539777380}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8598324624672298725
 PrefabInstance:
   m_ObjectHideFlags: 0

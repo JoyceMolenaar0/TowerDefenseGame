@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 8565588867671307818}
   - component: {fileID: 6851604870581338289}
   - component: {fileID: 8892573490697864913}
-  - component: {fileID: 8314872337011959535}
+  - component: {fileID: 3974853334688164819}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +101,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -120,7 +120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletSpeed: 5
---- !u!114 &8314872337011959535
+  Tower1Pos: {fileID: 2997576700976891216, guid: 34d9939b36c5f6e439773e48a7229183,
+    type: 3}
+--- !u!114 &3974853334688164819
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,7 +131,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2737454035792165013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75798c1eda2c2374f89078c083c988a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d034b1831149364d93db5e2a34c8f03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 10
+  Enemy: {fileID: 7252600040794308482, guid: 7df44b6a726710c438d20f6d4e2a1221, type: 3}
+  TheDamage: 10

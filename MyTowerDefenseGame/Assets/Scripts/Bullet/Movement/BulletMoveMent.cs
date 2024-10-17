@@ -6,10 +6,11 @@ using UnityEngine;
 public class BulletMoveMent : MonoBehaviour
 {
     [SerializeField] int BulletSpeed;
-
+    [SerializeField] GameObject Tower1Pos;
     private Vector3 EnemyPosition;
     void Start()
     {
+        transform.position = Tower1Pos.transform.position;
         GameObject Enemy = GameObject.FindWithTag("Enemy");
 
         if (Enemy != null)
