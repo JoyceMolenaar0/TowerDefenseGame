@@ -6,7 +6,7 @@ public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] GameObject[] WalkPoints;
     [SerializeField] int CurrentTarget;
-    private float MoveSpeed = 2;
+    private float MoveSpeed = 1;
     void Start()
     {
         transform.position = WalkPoints[0].transform.position;

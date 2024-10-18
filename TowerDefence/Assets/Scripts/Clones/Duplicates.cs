@@ -4,30 +4,39 @@ using UnityEngine;
 
 public class Duplicates : MonoBehaviour
 {
-    [SerializeField] GameObject EnemyOger;
-    private GameObject OgerClone;
+    [SerializeField] GameObject TheObjectThatNeedstoBeCloned;
+    [SerializeField] int CloneAmount;
+    [SerializeField] float TheWaitBeforeNewClone;
 
-    private float ElapsedTime = 0;
+    private GameObject TheClone;
+    private float ElapsedTime;
+    private bool IsCloning = false;
+    
+    
     void Start()
     {
-        for (int I = 0; I < 4; I++)
-        {
-            Cloning();
-        }
+        
     }
 
-     
     void Update()
     {
-        ElapsedTime += Time.deltaTime;
+        ElapsedTime += Time.time;
+        if (ElapsedTime > 3 && !IsCloning)
+        {
+            ElapsedTime = 0f;
+           StartCoroutine(Cloning());
+        }
+        
     }
 
-    void Cloning()
+    IEnumerator Cloning()
     {
-        if (ElapsedTime > 0.2)
+        IsCloning = true;
+        for (int i = 0; i < CloneAmount; i++)
         {
-            OgerClone = Instantiate(EnemyOger);
+            TheClone = Instantiate(TheObjectThatNeedstoBeCloned);
+            yield return new WaitForSeconds(TheWaitBeforeNewClone);
         }
-        ElapsedTime = 0;    
+        
     }
 }
