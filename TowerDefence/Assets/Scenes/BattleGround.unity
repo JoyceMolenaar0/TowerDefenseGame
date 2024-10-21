@@ -604,6 +604,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &301378739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -687,6 +688,8 @@ PrefabInstance:
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
 =======
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
+=======
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
 --- !u!1 &303008606
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +763,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 353939004}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -816,6 +820,11 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
+=======
+  - {fileID: 353939004}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
 --- !u!1 &353939003
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +858,9 @@ Transform:
   m_Father: {fileID: 321799920}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
+=======
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
 =======
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
@@ -4256,6 +4268,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &3883131664095717024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4313,6 +4326,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 892b5594d928f214c87ec636d40ada93, type: 3}
+=======
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
 =======
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
 =======
@@ -4510,6 +4525,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 7568001377452706526, guid: 3e8165ef5dc78d14a861d640a05edb28, type: 3}
       propertyPath: m_IsActive
 <<<<<<< HEAD
@@ -4519,11 +4535,16 @@ PrefabInstance:
 =======
 =======
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
+=======
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
     - target: {fileID: 7568001377452706526, guid: 3e8165ef5dc78d14a861d640a05edb28, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
+=======
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
 =======
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
