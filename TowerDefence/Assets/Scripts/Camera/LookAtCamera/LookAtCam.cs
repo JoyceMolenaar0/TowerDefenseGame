@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class LookAtCam : MonoBehaviour
 {
-    [SerializeField] Transform Cameras;
+    [SerializeField] Transform[] Cameras;
+
+    private int CurrentCamera;
     void Start()
     {
         
@@ -13,6 +15,6 @@ public class LookAtCam : MonoBehaviour
     
     void Update()
     {
-        transform.LookAt(Cameras);
+        
     }
 }
