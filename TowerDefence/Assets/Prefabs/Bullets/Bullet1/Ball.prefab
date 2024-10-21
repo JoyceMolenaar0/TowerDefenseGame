@@ -86,6 +86,7 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4614406912186424676}
@@ -116,11 +117,16 @@ SphereCollider:
 --- !u!135 &5456975093556017827
 SphereCollider:
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
+=======
+--- !u!135 &5456975093556017827
+SphereCollider:
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5423031110098143198}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,6 +144,8 @@ SphereCollider:
 <<<<<<< HEAD
 --- !u!114 &4649749228676928908
 =======
+=======
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
 =======
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
 =======
@@ -174,6 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4674124e4e73e7b4b84a9524d387a1cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -297,6 +306,10 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+  Enemy: {fileID: 7083354671821885540, guid: 3e8165ef5dc78d14a861d640a05edb28, type: 3}
+  BulletSpawn: {fileID: 7671644043999929585, guid: 5edf0618b68183e4a958400933cc3405, type: 3}
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
 =======
   Enemy: {fileID: 7083354671821885540, guid: 3e8165ef5dc78d14a861d640a05edb28, type: 3}
   BulletSpawn: {fileID: 7671644043999929585, guid: 5edf0618b68183e4a958400933cc3405, type: 3}
