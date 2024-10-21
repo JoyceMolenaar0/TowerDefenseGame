@@ -8,20 +8,19 @@ public class HealthBar : MonoBehaviour
 {
     [SerializeField] Slider HealthSlider;
     [SerializeField] TextMeshProUGUI HealthText;
-
-    private int Damage = 20;
-    private int Health;
-    private int MaxHealth = 100;
+    [SerializeField] int MaxHealth;
+    public int Health;
+    
     void Start()
     {
         Health = MaxHealth;
+        UpdateHealthBar();
     }
 
    
     void Update()
     {
         UpdateHealthBar();
-
     }
 
     void UpdateHealthBar()
