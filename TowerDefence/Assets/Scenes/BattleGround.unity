@@ -3254,7 +3254,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1959673113}
-  - component: {fileID: 1959673114}
   m_Layer: 0
   m_Name: Bullets
   m_TagString: Untagged
@@ -3277,21 +3276,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 208237233}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1959673114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959673112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b74708ce65b26d449a3e6cc27f508abb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheObjectThatNeedstoBeCloned: {fileID: 5423031110098143198, guid: 892b5594d928f214c87ec636d40ada93, type: 3}
-  CloneAmount: 1000
-  TheWaitBeforeNewClone: 0.2
 --- !u!224 &1991735514 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4557318644791078226, guid: a3a8a9bf2dc0a704f8432abd890df367, type: 3}
