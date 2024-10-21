@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:TowerDefence/Assets/Scripts/Bullets/BulletMoveMent/BulletRotation.cs.meta
 guid: 1a943766244827549ae005f36454a748
+========
+guid: fbbbb139c81deae42875601aca7757ab
+>>>>>>>> parent of 4ffe7a1 (BulletMovement):TowerDefence/Assets/Scripts/Collider/ColliderDetection.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -23,8 +23,8 @@ public class Duplicates : MonoBehaviour
         ElapsedTime += Time.time;
         if (ElapsedTime > 3 && !IsCloning)
         {
-            ElapsedTime = 0f;
-            StartCoroutine(Cloning());
+           ElapsedTime = 0f;
+           StartCoroutine(Cloning());
         }
         
     }
@@ -36,7 +36,6 @@ public class Duplicates : MonoBehaviour
         {
             TheClone = Instantiate(TheObjectThatNeedstoBeCloned);
             yield return new WaitForSeconds(TheWaitBeforeNewClone);
-            
         }
         
     }

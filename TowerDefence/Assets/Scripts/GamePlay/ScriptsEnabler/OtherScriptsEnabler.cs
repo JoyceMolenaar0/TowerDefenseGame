@@ -9,7 +9,7 @@ public class OtherScriptsEnabler : MonoBehaviour
     private float ElapsedTime = 0f;
     void Start()
     {
-        BulletScript.SetActive(false)
+        BulletScript.SetActive(false);
     }
 
    
