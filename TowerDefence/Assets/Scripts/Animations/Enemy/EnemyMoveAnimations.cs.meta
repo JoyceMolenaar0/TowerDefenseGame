@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1e17c0951c78a4e458b796d0abd842f7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - EnemyAnimator: {fileID: 3795704766868343326, guid: 3e8165ef5dc78d14a861d640a05edb28, type: 3}
+  - DoorPoint: {fileID: 2772109358290269230, guid: 7782c0a514693c14c9183557aa55b741, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

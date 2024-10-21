@@ -83,7 +83,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: bc6390c833efdfd4295b0a25f57ceda5, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 24292d177bfaf8a49b545ab9a2b3c26d, type: 2}
+      objectReference: {fileID: 9100000, guid: 26992a853af95d044bb4a91e83b16275, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -100,7 +100,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bc6390c833efdfd4295b0a25f57ceda5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5723147143534865478}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bc6390c833efdfd4295b0a25f57ceda5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1198051390036242902}
   m_SourcePrefab: {fileID: 100100000, guid: bc6390c833efdfd4295b0a25f57ceda5, type: 3}
+--- !u!95 &3795704766868343326 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: bc6390c833efdfd4295b0a25f57ceda5, type: 3}
+  m_PrefabInstance: {fileID: 7333998700637812623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7568001377452706526 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bc6390c833efdfd4295b0a25f57ceda5, type: 3}
@@ -170,6 +178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WalkPoints:
   - {fileID: 5664416382746635302, guid: 82ce34c09a0135c49ae610e34f55f203, type: 3}
+  - {fileID: 2772109358290269230, guid: 7782c0a514693c14c9183557aa55b741, type: 3}
   - {fileID: 6242021208674776408, guid: 1ead3a4f592549449ba50109497f38c2, type: 3}
   - {fileID: 1412280589401020650, guid: 84d6dbb74b6084741905f5c939c44595, type: 3}
   - {fileID: 5420118309948893991, guid: 60bd4948150494f4baa004c1153b295a, type: 3}
@@ -194,3 +203,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6a8926b10dc5f94789fda923ed24493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1198051390036242902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7568001377452706526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e17c0951c78a4e458b796d0abd842f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyAnimator: {fileID: 3795704766868343326}
+  DoorPoint: {fileID: 2772109358290269230, guid: 7782c0a514693c14c9183557aa55b741, type: 3}
