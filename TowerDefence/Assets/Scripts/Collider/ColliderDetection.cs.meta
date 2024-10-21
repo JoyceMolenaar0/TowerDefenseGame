@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:TowerDefence/Assets/Scripts/Bullets/BulletMoveMent/BulletRotation.cs.meta
 guid: 457c88e764fbe40478e22ac0612f9231
 =======
 <<<<<<<< HEAD:TowerDefence/Assets/Scripts/GamePlay/ScriptsEnabler/OtherScriptsEnabler.cs.meta
 guid: 64e32b7942646cd4b8a9d14eaa844554
+>>>>>>> parent of 4ffe7a1 (BulletMovement)
+=======
+<<<<<<<< HEAD:TowerDefence/Assets/Scripts/Bullets/BulletDamage/DamageBullet.cs.meta
+guid: 586f63bd76b56244eaca93e09eb6eb8d
 >>>>>>> parent of 4ffe7a1 (BulletMovement)
 ========
 guid: fbbbb139c81deae42875601aca7757ab
