@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:TowerDefence/Assets/Scripts/Bullets.meta
 <<<<<<<< HEAD:TowerDefence/Assets/Scripts/Bullets.meta
 guid: 0085c6d659503e7439b7bd198b4616a1
 ========
 guid: 82585aabaf560984d8aea8378aeee9ce
 >>>>>>>> parent of 4ffe7a1 (BulletMovement):TowerDefence/Assets/Scripts/Collider.meta
+=======
+guid: 3b515100d69045342bc08767131cd2a3
+>>>>>>> parent of d5390c9 (CommitChange):TowerDefence/Assets/Scripts/Animations.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

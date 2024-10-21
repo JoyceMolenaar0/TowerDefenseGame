@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:TowerDefence/Assets/Scripts/GamePlay/ScriptsEnabler/OtherScriptsEnabler.cs.meta
 <<<<<<<< HEAD:TowerDefence/Assets/Scripts/GamePlay/ScriptsEnabler/OtherScriptsEnabler.cs.meta
 guid: 64e32b7942646cd4b8a9d14eaa844554
 ========
 guid: fbbbb139c81deae42875601aca7757ab
 >>>>>>>> parent of 4ffe7a1 (BulletMovement):TowerDefence/Assets/Scripts/Collider/ColliderDetection.cs.meta
+=======
+guid: 0f0f54173ec60dd40a127598b8d1ee0e
+>>>>>>> parent of d5390c9 (CommitChange):TowerDefence/Assets/Scripts/Animations/Gate/GateIsFalling/GateRemoval.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
