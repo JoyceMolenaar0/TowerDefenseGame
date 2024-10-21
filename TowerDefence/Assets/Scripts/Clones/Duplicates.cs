@@ -23,7 +23,7 @@ public class Duplicates : MonoBehaviour
         ElapsedTime += Time.time;
         if (ElapsedTime > 3 && !IsCloning)
         {
-            ElapsedTime = 0f;
+           ElapsedTime = 0f;
            StartCoroutine(Cloning());
         }
         
