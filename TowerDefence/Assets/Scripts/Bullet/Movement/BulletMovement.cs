@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class BulletMovement : MonoBehaviour
 {
+    [SerializeField] GameObject BulletSpawn;
     [SerializeField] float BulletSpeed;
     private Vector3 EnemyPos;
     
     void Start()
     {
+        transform.position = BulletSpawn.transform.position;
+        Debug.Log("Pos = " + transform.position);
         GameObject Enemy = GameObject.FindWithTag("Enemy");
         if (Enemy != null)
         {
