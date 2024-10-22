@@ -2078,6 +2078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyAnimator: {fileID: 3795704766868343326}
+  DoorPoint: {fileID: 2772109358290269230, guid: 78dcd58f936917a40bdbcb2a21f949d6, type: 3}
 --- !u!114 &3121873372536697224
 MonoBehaviour:
   m_ObjectHideFlags: 0
