@@ -62,36 +62,24 @@ Voorbeeld van een one page design:
 Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit hebt gedaan.
 
 *  **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
-
-*Mijn torens hebben ook nog een f.o.v waardoor je pas gaan mikken als enemies in de buurt zijn. ook hebben mijn torens geen 360 graden view maar 90 graden waardoor het een extra uitdaging is voor de speler om de torens ook op de meest tactische manier te roteren.*
+Mijn torens kunnen zeker mikken op het doelwit, er komt steeds om de paar seconden een nieuwe 'wave' met kogels en er zit ook een limiet op, zodat je de upgrades kan gebruiken.
 
 *  **Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
+Mijn enemies hebben 1 pad die ze moeten volgen. Ze beginnen eerst in een 'prison' en ze moeten de deur open schoppen, als ze dit hebben gedaan kunnen ze het pad verder volgen.
+Ook bevatten mijn enemies een health system, hierdoor verdwijnen de enemies als de bullets tegen hun aankomen.
 
-*Mijn enemies bevatten 3 types: 
-1 snelle die ook snel dood gaat. echter als er veel snelle enemies zijn is de kans steeds groter dat ze bij hun doel komen omdat de torens maar 1 enemy tegelijk kan targetten. Het forceert de speler dus om veel goedkope torens te plaatsen.
-Ook is er een langzame gepantserde enemy. Deze kan eigenlijk alleen maar worden vernietigd door magische torens die zijn geupgrade. goedkope torens doen bijna geen schade. De speler moet dus een balans gaan zoeken tussen veel goedkope torens en upgraden van torens.
-Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de speler een extra nadeel heeft en de torens handmatig de deze healer moet laten targetten hierdoor wordt de speler gedwongen om actiever de game te spelen omdat anders geen enkele enemy meer dood gaat.*
+*  
 
-*  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
-
-*Onderbouwing hier...*
-
-*  **Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
-
-*Onderbouwing hier...*
+*
 
 *  **Een “resource” systeem waarmee je resources kunt verdienen waarmee je torens kunt kopen en .evt upgraden.**
+Als speler krijg je geld om towers te kopen. Als je de game opstart krijg je gelijk 75 coins, deze kan je gebruiken om de eerste tower mee te kopen. daarna krijg je coins als de bullets de enemies raken!
 
-*Onderbouwing hier...*
 
-*  **Een “upgrade” systeem om je torens te verbeteren.**
-
-*Onderbouwing hier...*
 
 *  **Een “movement prediction” systeem waarmee je kan berekenen waar een toren heen moeten schieten om een bewegend object te kunnen raken. (Moeilijk)**
 
-*Onderbouwing hier...*
-
+Soort van... De bullets gaan verplaatsen zich naar de positie van de enemie, dit veranderd elke keer als de bullet een clone maakt.
 ## Product 7: Class Diagram voor volledige codebase 
 
 Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“Mermaid”](https://mermaid.js.org/syntax/classDiagram.html) tool.
