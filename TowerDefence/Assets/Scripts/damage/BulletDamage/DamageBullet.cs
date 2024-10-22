@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class DamageBullet : MonoBehaviour
 {
-    [SerializeField] HealthBar HealthBarScript;
+    [SerializeField] int HealthBarScript;
     [SerializeField] int Damage;
     [SerializeField] Transform Enemy;
     void Start()
@@ -25,7 +25,7 @@ public class DamageBullet : MonoBehaviour
 
     void TakeDamage(int TheDamage)
     {
-        HealthBarScript.Health -= Damage;  
+        Damage -= Damage;  
     }
 
     
