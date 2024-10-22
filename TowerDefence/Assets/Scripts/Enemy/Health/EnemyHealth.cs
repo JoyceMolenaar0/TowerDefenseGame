@@ -20,7 +20,10 @@ public class EnemyHealth : MonoBehaviour
     
     void Update()
     {
-        
+        if (Health < 0)
+        {
+            Health = 0;
+        }
     }
 
     private void UpdateHealth()

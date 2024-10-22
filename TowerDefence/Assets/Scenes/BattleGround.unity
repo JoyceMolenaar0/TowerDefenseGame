@@ -645,6 +645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Totem1
       objectReference: {fileID: 0}
+    - target: {fileID: 105756, guid: 6cd0c7b3308fc7544ad2a49e762470f0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 433046, guid: 6cd0c7b3308fc7544ad2a49e762470f0, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -4146,6 +4150,10 @@ PrefabInstance:
     - target: {fileID: 2107189891918920065, guid: 69a71a90c12246841baf1a499baffd8f, type: 3}
       propertyPath: m_Name
       value: Bullet1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107189891918920065, guid: 69a71a90c12246841baf1a499baffd8f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4290904070945471230, guid: 69a71a90c12246841baf1a499baffd8f, type: 3}
       propertyPath: m_LocalPosition.x

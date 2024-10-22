@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColliderDetection : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider Colliders)
+    public void OnTriggerEnter(Collider Colliders)
     {
         if (Colliders.gameObject.tag == "Enemy")
         {

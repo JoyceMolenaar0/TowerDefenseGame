@@ -112,7 +112,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.2
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2340659609546185280
 Rigidbody:
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletSpawn: {fileID: 6524414477729292152, guid: 90a02030ef165db4d86e1b592c9e5215, type: 3}
-  BulletSpeed: 2
+  BulletSpeed: 5
 --- !u!114 &3335172788794122583
 MonoBehaviour:
   m_ObjectHideFlags: 0
