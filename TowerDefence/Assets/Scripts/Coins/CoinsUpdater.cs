@@ -11,7 +11,7 @@ public class CoinsUpdater : MonoBehaviour
 
     void Start()
     {
-        PlayerCoins = 0;
+        PlayerCoins = 75;
         UpdateCoins();
     }
     void Update()
