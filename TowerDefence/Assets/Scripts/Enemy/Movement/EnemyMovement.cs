@@ -7,7 +7,8 @@ public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] GameObject[] WalkPoints;
     [SerializeField] int CurrentTarget;
-    private float MoveSpeed = 0.7f;
+    [SerializeField] float MoveSpeed = 0.7f;
+
     private float ElapsedTime = 0f;
     void Start()
     {
