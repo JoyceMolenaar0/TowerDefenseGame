@@ -14,27 +14,33 @@ Je moet ervoor zorgen dat de enemies niet jouw geld pot aanraken, dit doe je doo
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
-Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van **"Don't Repeat Yourself (DRY)"** en **"Single Responsibility Principle"**.
-Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
+DRY Script ->
 
-Bijvoorbeeld:
+https://github.com/JoyceMolenaar0/TowerDefenseTemplate/blob/GameBranch/TowerDefence/Assets/Scripts/Towers/TowerEnabler/BuyTowers.cs
+Ik heb het idee dat dit script voldoet aan de DRY eis, omdat ik hier gebruik maak van arrays. Ik kon makkelijk tientallen [SerializeField] neerzetten, maar ik heb arrays gebruikt om dit te voorkomen.
 
-*"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
-[link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
+SRP ->
+
+https://github.com/JoyceMolenaar0/TowerDefenseTemplate/blob/GameBranch/TowerDefence/Assets/Scripts/Enemy/Health/DieEnemy.cs
+Ik denk dat deze link aan de eis SRP voldoet, omdat dit geen andere scripts nodig heeft om te 'runnen'
+
+
+
 
 ## Product 2: "Projectmappen op GitHub"
 
 Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
 
-Dit is de [ROOT](/MyTowerDefenseGame/) folder van mijn unity project.
+Helaas heb ik zelf geen idee hoe ik dit moet doen, dus heb ik hier de link
+https://github.com/JoyceMolenaar0/TowerDefenseTemplate/tree/GameBranch/TowerDefence/Assets
 
 Zorg dat deze verwijst naar je Develop branch.
 
 ## Product 3: Build op Github
 
-Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eerst zijn verwijderd. Deze buildfiles upload je in je repository onder releases.  Bij eventuele afwijkingen moeten deze worden gedocumenteerd in de release. (Bijv controller nodig of spelen via netwerk etc..) 
+Mijn (nieuwste) build is helaas te groot voor github, maar ik heb nog wel een oude build die ik hier laat zien
+https://github.com/JoyceMolenaar0/TowerDefenseTemplate/releases
 
-[Release Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/releases)
 
 ## Product 4: Game met Sprites(animations) en Textures 
 
