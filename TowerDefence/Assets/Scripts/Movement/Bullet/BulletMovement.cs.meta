@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: d393d9696b07f734495f2ca059021c2b
-=======
-<<<<<<<< HEAD:TowerDefence/Assets/Scripts/Bullets/BulletDamage/DamageBullet.cs.meta
-<<<<<<<< HEAD:TowerDefence/Assets/Scripts/Bullets/BulletDamage/DamageBullet.cs.meta
-guid: 586f63bd76b56244eaca93e09eb6eb8d
-========
-guid: fbbbb139c81deae42875601aca7757ab
->>>>>>>> parent of 4ffe7a1 (BulletMovement):TowerDefence/Assets/Scripts/Collider/ColliderDetection.cs.meta
-========
-guid: 4674124e4e73e7b4b84a9524d387a1cb
->>>>>>>> parent of d5390c9 (CommitChange):TowerDefence/Assets/Scripts/Movement/Bullet/BulletMovement.cs.meta
->>>>>>> parent of d5390c9 (CommitChange)
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
