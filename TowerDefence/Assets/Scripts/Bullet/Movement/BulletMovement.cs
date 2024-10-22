@@ -11,7 +11,7 @@ public class BulletMovement : MonoBehaviour
     void Start()
     {
         transform.position = BulletSpawn.transform.position;
-        Debug.Log("Pos = " + transform.position);
+        
         GameObject Enemy = GameObject.FindWithTag("Enemy");
         if (Enemy != null)
         {

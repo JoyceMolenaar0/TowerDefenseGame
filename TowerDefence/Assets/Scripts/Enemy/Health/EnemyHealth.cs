@@ -9,8 +9,8 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] Slider HealthSlider;
     [SerializeField] TextMeshProUGUI HealthText;
     [SerializeField] int MaxHealth;
-    [SerializeField] int Damage;
-    public int Health;
+    
+    private int Health;
     void Start()
     {
         Health = MaxHealth;
@@ -23,14 +23,15 @@ public class EnemyHealth : MonoBehaviour
         
     }
 
-    void UpdateHealth()
+    private void UpdateHealth()
     {
         HealthSlider.value = Health;
         HealthText.text = "HP: " + Health;
     }
 
-    void TakeDamage(int TheDamage)
+    public void TakeDamage(int TheDamage)
     {
         Health -= TheDamage;
+        UpdateHealth();
     }
 }

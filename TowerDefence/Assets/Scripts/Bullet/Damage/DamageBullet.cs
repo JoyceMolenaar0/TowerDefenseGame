@@ -1,32 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class DamageBullet : MonoBehaviour
 {
-    [SerializeField] int HealthBarScript;
-    [SerializeField] int Damage;
-    [SerializeField] Transform Enemy;
+    [SerializeField] int DamageCount;
+
     void Start()
     {
         
     }
 
-
     void Update()
     {
-        if (Vector3.Distance(transform.position, Enemy.transform.position) < 1f)
+
+    }
+
+    private void OnTriggerEnter(Collider Colliders)
+    {
+       
+
+        if (Colliders.gameObject.tag == "Enemy")
         {
-            TakeDamage(Damage);
+            EnemyHealth EnemyHealthScript = Colliders.gameObject.GetComponentInChildren<EnemyHealth>();
+            Debug.Log("Enemy Hit!");
+            EnemyHealthScript.TakeDamage(DamageCount);
         }
     }
 
-    void TakeDamage(int TheDamage)
-    {
-        Damage -= Damage;  
-    }
-
-    
 }
