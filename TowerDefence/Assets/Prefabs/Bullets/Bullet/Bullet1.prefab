@@ -87,6 +87,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1246918758467806929, guid: d7c5ce0a5be36014689a9a18d764c26e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 950201481010256977}
+    - targetCorrespondingSourceObject: {fileID: 1246918758467806929, guid: d7c5ce0a5be36014689a9a18d764c26e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4621962778089478290}
   m_SourcePrefab: {fileID: 100100000, guid: d7c5ce0a5be36014689a9a18d764c26e, type: 3}
 --- !u!1 &2107189891918920065 stripped
 GameObject:
@@ -180,3 +183,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageCount: 5
+--- !u!114 &4621962778089478290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107189891918920065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f235acd773e603b4895d17c04fb0d740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinsAddAmount: 1

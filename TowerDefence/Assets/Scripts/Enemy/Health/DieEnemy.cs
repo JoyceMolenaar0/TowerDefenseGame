@@ -15,7 +15,6 @@ public class DieEnemy : MonoBehaviour
     
     void Update()
     {
-        Debug.Log("Current Health: " + HealthSlider.value);
 
         if (HealthSlider.value <= 0)
         {

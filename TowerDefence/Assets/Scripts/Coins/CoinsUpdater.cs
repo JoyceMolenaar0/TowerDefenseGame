@@ -9,7 +9,11 @@ public class CoinsUpdater : MonoBehaviour
 
     public int PlayerCoins;
 
-
+    void Start()
+    {
+        PlayerCoins = 0;
+        UpdateCoins();
+    }
     void Update()
     {
         UpdateCoins();    
