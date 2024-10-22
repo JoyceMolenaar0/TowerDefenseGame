@@ -584,6 +584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shooters2
       objectReference: {fileID: 0}
+    - target: {fileID: 8074786058136646730, guid: 2077fb8d4ab228b48a928862a38c54db, type: 3}
+      propertyPath: m_text
+      value: 'More:'
+      objectReference: {fileID: 0}
     - target: {fileID: 8683724763980090455, guid: 2077fb8d4ab228b48a928862a38c54db, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -908,6 +912,10 @@ PrefabInstance:
     - target: {fileID: 4771422718708301804, guid: a3a8a9bf2dc0a704f8432abd890df367, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927399343525135053, guid: a3a8a9bf2dc0a704f8432abd890df367, type: 3}
+      propertyPath: m_text
+      value: 'More:'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2137,6 +2145,55 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &1530958142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1530958143}
+  - component: {fileID: 1530958144}
+  m_Layer: 0
+  m_Name: Bullet1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1530958143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530958142}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1959673113}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1530958144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530958142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b74708ce65b26d449a3e6cc27f508abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TheObjectThatNeedstoBeCloned: {fileID: 2107189891918920065, guid: 69a71a90c12246841baf1a499baffd8f, type: 3}
+  MaxCloneAmount: 100
+  TheCloneAmountPerWave: 3
+  TheWaitBeforeNewClone: 0.5
+  TheIntervalTime: 3
 --- !u!1 &1542976875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,7 +3019,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1959673113}
-  - component: {fileID: 1959673114}
   m_Layer: 0
   m_Name: Bullets
   m_TagString: Untagged
@@ -2982,26 +3038,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1530958143}
   m_Father: {fileID: 208237233}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1959673114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959673112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b74708ce65b26d449a3e6cc27f508abb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TheObjectThatNeedstoBeCloned: {fileID: 2107189891918920065, guid: 69a71a90c12246841baf1a499baffd8f, type: 3}
-  MaxCloneAmount: 100
-  TheCloneAmountPerWave: 3
-  TheWaitBeforeNewClone: 0.5
-  TheIntervalTime: 3
 --- !u!224 &1991735514 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4557318644791078226, guid: a3a8a9bf2dc0a704f8432abd890df367, type: 3}
@@ -3243,6 +3283,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 9113894225849835184, guid: 34379b8d45cbb6c489707e4afea87524, type: 3}
+      propertyPath: m_text
+      value: 'More:'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3576193666031642424, guid: 34379b8d45cbb6c489707e4afea87524, type: 3}
@@ -3309,6 +3353,10 @@ PrefabInstance:
     - target: {fileID: 1824773519692832741, guid: 21c8c18cf909cda479951e587d705923, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005142400543697206, guid: 21c8c18cf909cda479951e587d705923, type: 3}
+      propertyPath: m_text
+      value: 'More:'
       objectReference: {fileID: 0}
     - target: {fileID: 2144440106620414586, guid: 21c8c18cf909cda479951e587d705923, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
