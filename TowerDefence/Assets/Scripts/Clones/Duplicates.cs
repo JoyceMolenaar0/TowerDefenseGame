@@ -5,38 +5,42 @@ using UnityEngine;
 public class Duplicates : MonoBehaviour
 {
     [SerializeField] GameObject TheObjectThatNeedstoBeCloned;
-    [SerializeField] int CloneAmount;
+    [SerializeField] float MaxCloneAmount;
+    [SerializeField] float TheCloneAmountPerWave;
     [SerializeField] float TheWaitBeforeNewClone;
+    [SerializeField] float TheIntervalTime;
 
     private GameObject TheClone;
-    private float ElapsedTime;
+
     private bool IsCloning = false;
-    
+    private float ElapsedTime;
+    private float CloneCount;
     
     void Start()
     {
-        
+        IsCloning = false;
     }
 
     void Update()
     {
-        ElapsedTime += Time.time;
-        if (ElapsedTime > 3 && !IsCloning)
+        ElapsedTime += Time.deltaTime;
+
+        if (ElapsedTime > TheIntervalTime && CloneCount < MaxCloneAmount && IsCloning == false)
         {
-            ElapsedTime = 0f;
-           StartCoroutine(Cloning());
+            StartCoroutine(MakeClones());
+            IsCloning = true;
         }
-        
     }
 
-    IEnumerator Cloning()
+    IEnumerator MakeClones()
     {
-        IsCloning = true;
-        for (int i = 0; i < CloneAmount; i++)
+        for (int i = 0; i < TheCloneAmountPerWave; i++)
         {
             TheClone = Instantiate(TheObjectThatNeedstoBeCloned);
             yield return new WaitForSeconds(TheWaitBeforeNewClone);
+            ElapsedTime = 0;
+            CloneCount++;
+            IsCloning = false;
         }
-        
     }
 }
