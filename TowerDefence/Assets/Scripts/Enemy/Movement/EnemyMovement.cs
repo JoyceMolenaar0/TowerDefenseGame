@@ -46,7 +46,7 @@ public class EnemyMovement : MonoBehaviour
                 CurrentTarget++;
             }
 
-            if (Vector3.Distance(transform.position, WalkPoints[11].transform.position) < 0.5)
+            if (Vector3.Distance(transform.position, WalkPoints[12].transform.position) < 0.5)
             {
                 Destroy(gameObject);
                 return;
