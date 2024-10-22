@@ -1,11 +1,15 @@
 # TowerDefenseTemplate
 Dit is een template wat door jullie te gebruiken is voor het juist inleveren van alle producten voor de Towerdefense beroepsopdracht. **Verwijder uiteindelijk de template teksten!**
 
-Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
+Je moet ervoor zorgen dat de enemies niet jouw geld pot aanraken, dit doe je door magische "Totems" te kopen. Je krijgt bij elke Bullet een paar coins, dit is per bullet/toren verschillend.
 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
 
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
+![Schermafbeelding 2024-10-23 004143](https://github.com/user-attachments/assets/62832e39-d562-4fa3-8c15-a8a4e9c536e9)
+![Schermafbeelding 2024-10-23 004213](https://github.com/user-attachments/assets/ecc036ae-2f6a-49bb-9a44-2d6c0a0ac417)
+![Schermafbeelding 2024-10-23 004226](https://github.com/user-attachments/assets/2b9d5371-3d26-4baf-af3e-ede4ae53a246)
+
+
+
 
 
 ## Product 1: "DRY SRP Scripts op GitHub"
