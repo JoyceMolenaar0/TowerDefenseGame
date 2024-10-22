@@ -1015,7 +1015,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 402653652035122985, guid: eab590567d6215549aa164cfbec9adfe, type: 3}
       propertyPath: m_Name
-      value: RollingBalls_Sci-fi_1_4
+      value: Ball
       objectReference: {fileID: 0}
     - target: {fileID: 4903893168801840659, guid: eab590567d6215549aa164cfbec9adfe, type: 3}
       propertyPath: m_LocalScale.x
@@ -2066,7 +2066,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 105756, guid: 6cd0c7b3308fc7544ad2a49e762470f0, type: 3}
       propertyPath: m_Name
-      value: pfb_AirTotem
+      value: Totum
       objectReference: {fileID: 0}
     - target: {fileID: 433046, guid: 6cd0c7b3308fc7544ad2a49e762470f0, type: 3}
       propertyPath: m_LocalScale.x
