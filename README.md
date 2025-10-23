@@ -1,4 +1,5 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/528ac73b-645f-4055-b909-15bec5d9d202" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/cd2998fa-4a6e-47e1-b052-3400ea9777b2" />
+
 Over het spel:
 Zombie Gold Defence is een spannende Tower Defence game waarin je jouw goud moet beschermen tegen hordes zombies! Bouw verdedigingstorens, verbeter je strategie en voorkom dat de ondoden je schat bereiken.
 
