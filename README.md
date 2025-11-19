@@ -28,6 +28,7 @@ Overleef golven van steeds sterkere vijanden!
 <img width="510" height="252" alt="image" src="https://github.com/user-attachments/assets/4fe69104-fbc9-44bd-ae71-5a4a081f4726" />
 
 ##Bullet Damage
-<img width="544" height="308" alt="image" src="https://github.com/user-attachments/assets/f0408e46-91ab-4aa9-a65f-4113cbe6a5e0" />
+<img width="544" height="308" alt="image" src="https://github.com/user-attachments/assets/b34ab051-b9ce-436f-a8ad-65739fab4468" />
+
 
 
